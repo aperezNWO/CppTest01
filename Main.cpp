@@ -75,19 +75,21 @@ public:
 
 int main()
 {
+    //
     linked_list a;
     for (int i = 0; i < 10; i++)
             a.add_node(i);
-    
+    //
     node *tmp = new node;
     tmp       = a.head;
 
+    //
     while (tmp->next != NULL)
     {
         cout<<tmp->data<<endl;
         tmp  = tmp->next;
     }
         
-
+    //
     return 0;
 }
