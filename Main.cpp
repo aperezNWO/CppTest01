@@ -1,5 +1,6 @@
 /*
     https://www.codesdope.com/blog/article/c-linked-lists-in-c-singly-linked-list/
+    https://www.google.com/amp/s/www.geeksforgeeks.org/recursive-insertion-and-traversal-linked-list/amp/
 */
 
 /*
