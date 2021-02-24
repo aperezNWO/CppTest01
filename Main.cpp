@@ -1,5 +1,5 @@
 /*
-https://www.codesdope.com/blog/article/c-linked-lists-in-c-singly-linked-list/
+    https://www.codesdope.com/blog/article/c-linked-lists-in-c-singly-linked-list/
 */
 
 /*
