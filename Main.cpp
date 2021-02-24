@@ -1,7 +1,33 @@
+/*******************************************************************/
+//  CONFIGURACION
+/*******************************************************************/
+/*
+    task.json :
+    
+    unidad victimas : 
+    C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe
+    
+    carabelas :
+    g:\\
+
+    c_cpp_properties.json
+
+    unidad victimas :
+    C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
+
+    carabelas       :
+    g:\
+*/
+
+/*******************************************************************/
+//  DOCUMENTACION
+/*******************************************************************/
 /*
     https://www.codesdope.com/blog/article/c-linked-lists-in-c-singly-linked-list/
     https://www.google.com/amp/s/www.geeksforgeeks.org/recursive-insertion-and-traversal-linked-list/amp/
 */
+
+
 
 /*
 
@@ -37,6 +63,7 @@ And
 */
 
 #include <iostream>
+//#include <stdlib>
 
 using namespace std;
 struct node
@@ -74,8 +101,17 @@ public:
     }
 };
 
-int main()
+void Iterative()
 {
+    //
+    system ("CLS");
+
+    //   
+    cout<<"-----------------------------------------"<< endl;
+    cout<<"ITERATIVE                                "<< endl;
+    cout<<"-----------------------------------------"<< endl;
+
+
     //
     linked_list a;
     for (int i = 0; i < 10; i++)
@@ -90,7 +126,68 @@ int main()
         cout<<tmp->data<<endl;
         tmp  = tmp->next;
     }
-        
+
+    //
+    system("pause");
+}
+//
+void Recursive()
+{
+    //
+    system ("CLS");
+
+    //   
+    cout<<"-----------------------------------------"<< endl;
+    cout<<"RECURSIVE                                "<< endl;
+    cout<<"-----------------------------------------"<< endl;
+
+    //
+    system("pause");
+}
+//
+int main()
+{
+    //
+    const int opt_salida = 3;
+    int option = 0;
+
+    //
+    while (option != opt_salida)
+    {
+         //
+         system ("CLS");
+
+         //   
+         cout<<"-----------------------------------------"<< endl;
+         cout<<"CREACION DE LISTAS ENLAZADAS             "<< endl;
+         cout<<"-----------------------------------------"<< endl;
+
+         //
+         cout<<"Menu Principal"<< endl;
+         cout<<""<< endl;
+         cout<<"1. Iterativa."<< endl;         
+         cout<<"2. Recursiva."<< endl;
+         cout<<"3. Salir."<< endl;
+         cout<<""<< endl;
+         cout<<"Seleccion opcion :";
+         cin>>option;
+
+         //
+         switch (option)
+         {
+             case 1:
+                Iterative();
+             break;
+             case 2:
+                Recursive();
+             break;                
+
+         };
+
+         //
+         system ("CLS");
+    };
+
     //
     return 0;
 }
