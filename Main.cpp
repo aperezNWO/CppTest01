@@ -5,7 +5,7 @@
     task.json :
     
     unidad victimas : 
-    C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe
+    C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\gcc.exe
     
     carabelas :
     g:\\MinGW\\bin\\g++.exe
@@ -13,7 +13,7 @@
     c_cpp_properties.json
 
     unidad victimas :
-    C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
+    C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
 
     carabelas       :
     g:/mingw/bin/g++.exe
