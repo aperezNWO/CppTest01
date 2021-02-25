@@ -8,15 +8,15 @@
     C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe
     
     carabelas :
-    g:\\
+    g:\\MinGW\\bin\\g++.exe
 
     c_cpp_properties.json
 
     unidad victimas :
-    C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/gcc.exe
+    C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe
 
     carabelas       :
-    g:\
+    g:/mingw/bin/g++.exe
 */
 
 /*******************************************************************/
@@ -63,7 +63,7 @@ And
 */
 
 #include <iostream>
-//#include <stdlib>
+#include <stdlib.h>
 
 using namespace std;
 struct node
