@@ -10,7 +10,6 @@
 
 using namespace std;
 
-
 class IterativeList
 {
 public:
@@ -48,7 +47,7 @@ public:
 
         //   
         cout<<"-----------------------------------------"<< endl;
-        cout<<"ITERATIVE                                "<< endl;
+        cout<<"-- ITERATIVE                             "<< endl;
         cout<<"-----------------------------------------"<< endl;
 
 

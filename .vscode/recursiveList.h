@@ -58,7 +58,7 @@ class RecursiveList
 
         //   
         cout<<"-----------------------------------------"<< endl;
-        cout<<"RECURSIVE                                "<< endl;
+        cout<<"-- RECURSIVE                             "<< endl;
         cout<<"-----------------------------------------"<< endl;
 
         //
