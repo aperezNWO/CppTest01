@@ -83,9 +83,9 @@ int main()
          cout<<"-----------------------------------------"<< endl;
          cout<<"-- LINKED LISTS                          "<< endl;
          cout<<"-----------------------------------------"<< endl;
-
-         //
-         cout<<"MAIN MENU"<< endl;
+         cout<<"-- MAIN MENU"<< endl;
+         cout<<"-----------------------------------------"<< endl;
+         
          cout<<""<< endl;
          cout<<"1. Iterative."<< endl;         
          cout<<"2. Recursive."<< endl;
